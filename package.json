@@ -1,0 +1,15 @@
+{
+  "name": "moodful",
+  "version": "1.0.0",
+  "description": "an online, mindful mood tracker",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "author": "Meg Matty",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
