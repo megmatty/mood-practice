@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: Ia6iQn4wUdrlfPrBVxXdtUpa3hU4NiUdDv6CTwgJPtxOj2jpIvDV7wLrxDq9CDWostuytqDz2BCkn4D1/Ozf6zElVhieK19z9kp3EywS6JyQ0N+glbzGkODC9C5QV8mHWJtbhUd4SlARDpRUJcevxHf0+GsKkU23Ov/AxVaYb+vaxGrv8SP0zvrT7wxuks5+Ifc39f7qcA+81EVueNosxpcb9Y/47XWrufCSlBqhgrVLES8BoXEGGDsNnCpv9dFp3AOzCiKjDmYxoa8bxtc20kVM5kJDlvSJY/uOTb/AXQYnIdJpIF9qBrFi0ZIkI+tEJ4n4pAgLK4S/4iCXYIh0H4lw/0R2hrbFRZIc+vxLVjdTxB5+3+RyOfSX6dik25dkHP3eA62gWmqm3ADhh/EEEdROZM6W+fqBMl1B0y9D83dKSLQscm30/jn0/+u7JmXIjTy0tCxPuZzFHELxM22lA18DpoxQcYF4b8XGJzwNA6dtxH4Lt2LFsU7QOjZElkTjrei81wmx9YiGIHSevpOXMLYgizuaTlh/RFBdFIDG3FdfPGFKulcUSMF7yLyTGOmw2xFISPLDPvAgAlC3bOCDBGEbg9/MpsQBG34sDLuHNxFJciy1MLSOXUT7Aup27DksJ5gDFa9zFPKH5gFU6OKU7frE+eIUgFBWYLJsfJYngTc=
+  app: floating-cove-78571
+  on:
+    repo: megmatty/moodful
