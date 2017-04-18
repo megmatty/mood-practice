@@ -6,6 +6,36 @@ const app = express();
 app.use(express.static('public'));
 
 
+//GET
+
+//POST - LOGIN
+
+//POST - ENTRY
+
+//PUT - ENTRY(ID)
+
+//DELETE - ENTRY(ID)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Server run and close functions
 let server;
 
 // this function starts our server and returns a Promise.

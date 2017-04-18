@@ -10,7 +10,11 @@
   "author": "Meg Matty",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.15.2"
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.15.2",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.5",
+    "passport": "^0.3.2"
   },
   "devDependencies": {
     "chai": "^3.5.0",
